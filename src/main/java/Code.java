@@ -5,7 +5,7 @@ public class Code extends CodeHelper {
         j = j / 30000;
         return j;
     }
-    }
+}
 
 
 

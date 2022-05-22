@@ -30,11 +30,6 @@ public class CodeTest {
     @Test
     public void case5(){
         CodeHelper name = new CodeHelper();
-        //name.
     }
-
-
-
-
 
 }
