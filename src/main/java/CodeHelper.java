@@ -22,11 +22,11 @@ public class CodeHelper {
 
     public static void age() {
         if (age <= 15) {
-            System.out.println("Don't hire");
+            System.out.println("below req. age - Don't hire");
         } else if (age >= 16 && age <= 17) {
-            System.out.println("Can hire on a part-time basis only");
+            System.out.println("part-time basis only");
         } else if (age >= 18 && age <= 54) {
-            System.out.println("Can hire as a full-time employee");
+            System.out.println("full-time employee");
         } else if (age >= 55) {
             System.out.println("Don't hire*");
         }
