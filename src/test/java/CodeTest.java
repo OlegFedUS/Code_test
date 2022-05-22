@@ -15,21 +15,5 @@ public class CodeTest {
         Assert.assertEquals(result2, 0);
     }
 
-    @Test
-    public void case3(){
-        int result3 = Code.blech(-1);
-        Assert.assertEquals(result3, 0);
-    }
-
-    @Test
-    public void case4(){
-        int result4 = Code.blech(-64000);
-        Assert.assertEquals(result4, -2);
-    }
-
-    @Test
-    public void case5(){
-        CodeHelper name = new CodeHelper();
-    }
 
 }
